@@ -5,53 +5,53 @@ import Orb from './components/ui/Orb';
 const projects = [
   { 
     id: 1, 
-    title: "Navigation System", 
-    tech: ["Flask", "Leaflet.js"], 
-    description: "Interactive web-based route planner with real-time map visualization.",
-    github: "https://github.com/yourusername/nav-system" 
+    title: "MARL (Multi-Agent Reinforcement Learning) Navigation System", 
+    tech: ["Python", "PyTorch", "NetworkX"], 
+    description: "Developed a MARL-based navigation system for multi-agent pathfinding in dynamic environments, achieving efficient coordination and collision avoidance.",
+    github: "https://github.com/Arjun24-10/MARL-" 
   },
   { 
     id: 2, 
-    title: "BloodNet", 
-    tech: ["MERN Stack", "JWT"], 
-    description: "Full-stack blood bank platform for donor management.",
-    github: "https://github.com/yourusername/bloodnet"
+    title: "TinkerFlow - AI Coding Tutor for Children", 
+    tech: ["Python", "AI APIs", "NLP", "Web Technologies"], 
+    description: "Full-stack AI-powered coding tutor for children.",
+    github: "https://github.com/Arjun24-10/TinkerFlow"
   },
   { 
     id: 3, 
-    title: "RFID Voting", 
-    tech: ["Embedded C", "STM32F401"], 
-    description: "Secure real-time vote counting designed on STM32 hardware.",
-    github: "https://github.com/yourusername/rfid-voting"
+    title: "Patient Management System", 
+    tech: ["Java", "React"], 
+    description: "Comprehensive system for managing patient records, appointments, and billing in healthcare settings.",
+    github: "https://github.com/Arjun24-10/PatientManagementSystem"
   },
   { 
     id: 4, 
-    title: "Smart Agriculture", 
-    tech: ["Arduino", "IoT"], 
-    description: "IoT-based system to monitor soil moisture and automate irrigation.",
-    github: "https://github.com/yourusername/smart-agri"
+    title: "NOVA detect", 
+    tech: ["Python","Machine Learning", "Image Processing"], 
+    description: "Lunar Landslide & Boulder Detection using Chandrayaan Imagery.",
+    github: "https://github.com/Arjun24-10/NovaDetect"
   },
   { 
     id: 5, 
-    title: "E-Commerce API", 
-    tech: ["Node.js", "Stripe"], 
-    description: "High-performance backend API with integrated payment processing.",
-    github: "https://github.com/yourusername/shop-api"
+    title: "Secure Will Vault", 
+    tech: ["Javascript","Concepts of FOCS(Foundations of Cybersecurity)"], 
+    description: "A secure digital vault for storing wills and sensitive documents, utilizing encryption and multi-factor authentication to ensure data privacy and integrity.",
+    github: "https://github.com/Arjun24-10/Secure-Will-Vault"
   },
   { 
     id: 6, 
-    title: "Portfolio 2026", 
+    title: "Portfolio Website", 
     tech: ["React", "Three.js"], 
     description: "Personal portfolio featuring interactive 3D elements.",
-    github: "https://github.com/yourusername/portfolio"
+    github: "https://github.com/Arjun24-10/Arjun24-10.github.io"
   }
 ];
 
 const skills = [
-  { category: "Core Tech", items: ["React", "Node.js", "MongoDB", "Express"], size: "md:col-span-2" },
-  { category: "Embedded", items: ["STM32", "C/C++", "UART", "I2C"], size: "md:col-span-1" },
-  { category: "Tools", items: ["Git", "Postman", "Vite", "Tailwind"], size: "md:col-span-1" },
-  { category: "Overview", content: "Passionate about bridging the gap between high-level web applications and low-level embedded systems.", size: "md:col-span-2" }
+  { category: "Core Tech", items: ["Python", "Java", "ANTLR","JavaScript (ES6)", "C", "C++", "Haskell","React", "Node.js", "MongoDB", "Express"], size: "md:col-span-2" },
+  { category: "Embedded", items: ["STM32", "Arduino", "ESP32", "UART", "I2C", "SPI", "Real-time Systems"], size: "md:col-span-1" },
+  { category: "Tools", items: ["Git", "GitHub", "Docker", "Postman", "VS Code", "Linux"], size: "md:col-span-1" },
+  { category: "Overview", content: "I’m a Computer Science student and aspiring software engineer with hands-on experience in full-stack web development, AI/ML projects, and compiler design. I enjoy building practical, user-focused applications and exploring how systems work under the hood. I’m actively seeking opportunities to grow as a developer and contribute to impactful projects.", size: "md:col-span-2" }
 ];
 
 function App() {
@@ -120,7 +120,7 @@ function App() {
 
       {/* TECHNICAL OVERVIEW */}
       <section id="tech" className="relative z-20 px-6 py-32 max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 tracking-tighter italic text-gray-200">/ Technical Overview</h2>
+        <h2 className="text-4xl font-bold mb-12 tracking-tighter italic text-gray-200"> Technical Overview</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {skills.map((skill, i) => (
             <div key={i} className={`${skill.size} p-8 rounded-3xl bg-white/[0.02] border border-white/10 backdrop-blur-xl flex flex-col justify-between hover:border-purple-500/30 transition-all`}>
@@ -137,7 +137,7 @@ function App() {
 
       {/* SELECTED WORKS WITH GITHUB BUTTONS */}
       <section id="projects" className="relative z-20 px-6 py-32 max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 tracking-tighter italic text-gray-200">/ Selected Works</h2>
+        <h2 className="text-4xl font-bold mb-12 tracking-tighter italic text-gray-200"> Selected Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((p) => (
             <motion.div 
