@@ -96,8 +96,8 @@ function App() {
         <div className="flex gap-6 text-gray-300 text-[10px] uppercase tracking-widest font-bold">
           <a href="#projects" onClick={(e) => scrollToSection(e, 'projects')} className="hover:text-white px-3 py-1 rounded-lg hover:bg-white/10 transition-all">Works</a>
           <a href="#tech" onClick={(e) => scrollToSection(e, 'tech')} className="hover:text-white px-3 py-1 rounded-lg hover:bg-white/10 transition-all">Tech</a>
-          <a href="https://github.com/yourusername" target="_blank" className="hover:text-white px-3 py-1 rounded-lg hover:bg-white/10 transition-all">GitHub</a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" className="hover:text-white px-3 py-1 rounded-lg hover:bg-white/10 transition-all">LinkedIn</a>
+          <a href="https://github.com/Arjun24-10" target="_blank" className="hover:text-white px-3 py-1 rounded-lg hover:bg-white/10 transition-all">GitHub</a>
+          <a href="https://www.linkedin.com/in/arjun-krishnakumar-8409b3352/" target="_blank" className="hover:text-white px-3 py-1 rounded-lg hover:bg-white/10 transition-all">LinkedIn</a>
         </div>
       </nav>
 
